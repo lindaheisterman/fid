@@ -73,7 +73,7 @@ body {
   }
   a:focus, a:hover {
       color: green;
-      background-color: #fff;
+      background-color: lightgray
   }
   a:active {
       color: purple;
