@@ -63,3 +63,6 @@ footer img {
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
+a:focus, a:hover {
+  color: ligth green;
+  background-color: lightgray}
