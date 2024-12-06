@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+.playfair-display-sc-regular {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playfair-display-sc-bold {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.playfair-display-sc-black {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.playfair-display-sc-regular-italic {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.playfair-display-sc-bold-italic {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.playfair-display-sc-black-italic {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body {
+      background-color:#dde1e3;
+      color: rgb(0, 0, 0);
+      margin: 0 10%;
+      font-family:Arial, Helvetica, sans-serif;
+     font-size: 18px;
+     line-height: 1.6;
+      }
+    h1 {
+      text-align: center;
+    color: rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: light;
+    text-transform: none;
+    border-bottom: 1px solid #23A9A8;
+    margin-bottom: 30px;
+    }
+    h2 {
+      color: #000000;
+      font-size: 1.5em;
+      font-family:Playfair Display; serif;
+    }
+    h3 {
+      color: white;
+      font-size: 18px;1em;
+    }
+    
+    
+      h4 {
+      text-align: center;
+      color:#ffffff;
+    }
+    
+    h6 {
+      color: #000000;
+    
+    }
+    b {
+      color: black;}
+    
+      figure {
+      text-align: center;
+      margin: 0;
+    }
+    
+      figcaption {
+      font-size: 1.2em;
+      margin: top;
+      
+    }
+    figcaption:hover {
+      color: #ffb8a1;
+      background-color: BLACK;
+    }
+    
+    .image-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); 
+        gap: 20px; 
+        justify-items: center; 
+        align-items: center; 
+        margin: 20px 0; 
+    }
+    
+    .image-item {
+        text-align: center; 
+    }
+    
+    .image-item img {
+        max-width: 100%; 
+        height: auto; 
+        border: 4px solid black;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    footer {
+          border-top: 20px solid #23A9A8;
+          text-align: center;
+          padding-top: 1em;
+    }
+    footer img {
+        width: 40px;
+        height: 40px;
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+    .center-image-container {
+        text-align: center;
+    }
+    
+    .centered-image {
+        display: inline-block;
+    }
+    .horizontal-layout {
+        display: flex; 
+        flex-wrap: wrap; 
+        gap: 20px; 
+    }
+
+    .horizontal-layout p {
+        margin: 0; 
+    }
+ 
+    .highlight {
+        color: blue
+    }
+
+    .centered-image p {
+        text-align: center;
+        margin: 0 auto;
+    } 
+
+    
