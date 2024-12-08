@@ -1,0 +1,134 @@
+body {
+  margin: 30px;
+  padding: 0;
+  background-image: url('images/pup.jpg');
+  background-size: cover; 
+  background-position: top; 
+  background-repeat: no-repeat; 
+  min-height: 100vh; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem; 
+  color: white;
+  display: flex;
+flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+color: white;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-transform: none;
+margin-bottom: 30px;
+font-size: 4rem;
+}
+h2 {
+  text-align: center;
+  color: rgb(59, 221, 249);
+  font-size: 2em;
+  font-family:Playfair Display; serif;
+}
+h3 {
+  color: gold;
+}
+footer {
+  color: lightblue;
+  font-size:18px;
+  margin-top: auto;
+}
+.nav-links {
+  list-style-type: none; 
+  padding: 0;
+  text-align: center;
+}
+
+.nav-links li {
+  display: inline; 
+  margin-right: 20px; 
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(59, 221, 249);
+  font-size: 24px;
+}
+
+.nav-links a:hover {
+  color: gold;
+}
+.other-page {
+background-image: url('images/other1.jpg');
+background-size: cover;
+background-position: center;
+text-align:left;
+height: 100%;
+margin: 60px;
+line-height: 1.5;
+color: lightgoldenrodyellow;
+}
+
+body.other-page {
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+height: 100vh;
+margin: 0;
+background-color: #f4f4f4;
+text-align: center;
+}
+
+.image-container {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+.application-page {
+text-align: left;
+margin: 5 px;
+background-image: url('images/other2.png');
+background-size: cover;
+background-position: center;
+line-height: 150%;
+color: lightgoldenrodyellow;
+text-decoration: none;
+}
+
+.application-page a:link {
+  color: lightgoldenrodyellow; 
+  text-decoration: none; /* Note to self: This removes underline for unvisited links */
+}
+
+.application-page a:visited {
+  color: lightgoldenrodyellow; 
+  text-decoration: none;
+} 
+
+.application-page a:hover {
+  color: gold;
+  text-decoration: underline; 
+}
+
+.nav-links-left{
+text-align: left;
+}
+
+.requirements-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 30px; 
+}
+
+.requirements-list li {
+  margin-bottom: 15px; 
+}
+
+
+
