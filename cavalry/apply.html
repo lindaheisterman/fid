@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Canine Cavalry</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body class="application-page">
+<h1>Canine Cavalry</h1>
+<h2>Application Form</h2>
+
+<p>This is an initial application that is required to be completed for review.  Once your application is reviewed you will be contacted by a member of our team.  If you are a match for the program additional information will be requested. You will be required to submit photos of your home, provide detailed information about your living and financial situation, complete referral letter process, provide contact information for a secondary support person, and attend a three week on-campus training program if your initial application is accepted.</p>
+<p>Please allow 4-6 weeks for your initial application to be processed. All information provided is held in strict confidence. Please note that Canine Cavalry retains ownership of all Canine Cavalry dogs until their time of retirement, at which time each dog can be adopted out to their partnered veteran or an approved family within the Canine Cavalry network.</p>
+<form action="www.caninecavalry.com/apply.php" method="POST">
+
+<fieldset>
+    <legend> Your Information</legend>
+<ul>
+  <li><label for="form-name">Name:</label><input type="text" name="customername" id="form-name"></li>
+  <li><label for="form-address">Address:</label><input type="text" name="address" id="form-address"></li>
+  <li><label for="form-telephone">Telephone Number:</label><input type="tel" name="telephone" id="form-telephone"></li>
+  <li><label for="form-email">Email:</label><input type="email" name="email" id="form-email"></li>
+  <br>
+</ul>
+</fieldset>
+
+<h2>Your Service History</h2>
+<fieldset>
+    <legend>Military Specs</legend>
+    <p>You will be required to provide your DD-214 form, proof of financial ability, proof of residency, and a VA Disability Award letter or a letter from a licensed physician or mental health professional if selected for the program.</p>
+
+    <fieldset>
+        <legend>Branch <em>(Choose one)</em>:</legend>
+<ul>
+  <li><label><input type="radio" name="branch" value="army"> Army</label></li>
+  <li><label><input type="radio" name="branch" value="navy"> Navy</label></li>
+  <li><label><input type="radio" name="branch" value="air force"> Air Force</label></li>
+  <li><label><input type="radio" name="branch" value="marines">Marines</label></li>
+  <li><label><input type="radio" name="branch" value="coast guard">Coast Guard</label></li> 
+</ul>
+</fieldset>
+
+<p>Residence<em>(Choose one)</em>:</p>
+<ul>
+  <li><label><input type="checkbox" name="residence[]" value="home owner" checked> Home Owner</label></li>
+  <li><label><input type="checkbox" name="residence[]" value="renter">Renter</label></li>
+  <li><input type="checkbox" name="residence[]" value="assisted living facility">Assisted Living Faciity</label></li>
+  <li><input type="checkbox" name="residence[]" value="live with family">Live with Family/label></li>
+  <li><input type="checkbox" name="toppings[]" value="shelter">Shelter</label></li>
+  <li><input type="checkbox" name="toppings[]" value="homeless">Homeless</label></li>
+</ul>
+
+<p>Safety<em>(Choose all that apply)</em>:</p>
+
+<p>If you are a homeowner, do you have a fenced in yard? Is there a space near your home where you can walk a dog daily? You will be responsible for the safety of the Canine Calvary companion dog place in your care. 
+<ul>
+    <li><label><input type="radio" name="safety" value="Yes-fenced yard"> Yes - fenced yard</label></li>
+    <li><label><input type="radio" name="safety" value="Yes-park"> Yes - park</label></li>
+    <li><label><input type="radio" name="safety" value="Yes-trail"> Yes - trail</label></li>
+    <li><label><input type="radio" name="safety" value="Yes-other"> Yes - other</label></li>
+    <li><label><input type="radio" name="safety" value="Yes">No</label></li>
+    </ul>
+
+<p>How many people live with you?</p>
+<ul>
+    <select name="number" size="1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+    </select></p>
+</ul>
+
+<p>Employment<em>(Choose one)</em>:</p>
+<p>Are you employed?</p>
+<ul>
+    <li><label><input type="radio" name="employment" value="Yes - full time"> Yes - Full Time</label></li>
+    <li><label><input type="radio" name="employment" value="Yes - part time"> Yes - Part Time</label></li>
+    <li><label><input type="radio" name="employment" value="No - Retired"> No - Retired</label></li>
+    <li><label><input type="radio" name="employment" value="No - Disabled"> No - Disabled</label></li>
+    <li><label><input type="radio" name="employment" value="No - Unemployed"> No - Unemployed</label></li>
+    </ul>
+
+<p>Support<em>(Choose one)</em>:</p>
+<p>Do you have someone that can assist you with care, training, and maintenance of a Canine Calvary companion dog?</p>
+<ul>
+    <li><label><input type="radio" name="support" value="Yes"> Yes</label></li>
+    <li>If yes, provide your support person's Name, Phone Number, and Email Address:<br><textarea name="reason" rows="6" cols="60" maxlength="600" placeholder="No more than 600 characters long"></textarea></li>
+    <li><label><input type="radio" name="support" value="No"> No</label></li>
+    </ul>
+
+<p>Medical<em>(Choose one)</em>:</p>
+<p>Are you currently under the care of a physican or mental health specialist?</p>
+<ul>
+<li><label><input type="radio" name="medical" value="physician"> Physician</label></li>
+  <li><label><input type="radio" name="medical" value="mental health"> Mental Health Specialist</label></li>
+  <li><label><input type="radio" name="medical" value="no"> No</label></li>
+ <li>Briefly describe your reason for seeking a Canine Calvary dog for support and companionship:<br><textarea name="reason" rows="8" cols="80" maxlength="800" placeholder="No more than 600 characters long"></textarea></li>
+  </ul>
+
+<p>Canine Care<em>(Choose one)</em>:</p>
+<p>Are you physically and mentally able to care for a Canine Calvary companion dog? If not, do you have someone in your home who can assist you with caring for the Canine Calvary companion dog? 45-60 minutes of daily activity is suggested for a Canine Companion dog.</p>
+<ul>
+    <li><label><input type="radio" name="canine care" value="Yes"> Yes</label></li>
+    <li><label><input type="radio" name="canine care" value="Yes with assistance"> Yes with assistance</label></li>
+    <li><label><input type="radio" name="support" value="No"> No</label></li>
+    </ul>
+
+    <p>Financial Care<em>(Choose one)</em>:</p>
+    <p>Food and maintenance vet care for a Calvary Companion Dog averages $ 100-125 per month.  This does not include any emergency vet visits, toys, or additional items.  Note that Canine Calvary partners with financial assistance programs which may be available in your area or in certain conditions, through the VA.</p>
+    <p>Are you financially able to support a Canine Calvary companion dog?</p>
+    <ul>
+        <li><label><input type="radio" name="canine care" value="Yes"> Yes</label></li>
+        <li><label><input type="radio" name="support" value="No"> No</label></li>
+        </ul>  
+    </fieldset>
+</fieldset>
+<p><input type="submit" value="Submit My Application"><input type="reset"></p>
+</form>
+<p><a href="index.html">[Back to Home Page]</a></p>
+</body>
+</html>
