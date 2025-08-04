@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Website Design</title>
+<link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+
+<h1>Motion Graphics</h1>
+
+
+
+</div><p>This social media clip was designed for a Navajo Shaman Horse Blessing Ceremony.</p>
+<p> Click on the image to view.</p>
+<a href="https://youtu.be/LrK8xZlpzxo" target="_blank"><img src="images/ssweb.png" width="1400" height="900" alt="Github" style="border:10px solid #000000; padding: 1px; margin:5px"></a>
+<br><br>
+<p>This motion graphic was designed for an immersive art project called The Frequency of Being.</p>
+<p> Click on the image to view.</p>
+<a href="https://youtu.be/tQviHqo9MHg" target="_blank"><img src="images/bgb.pdf" width="1400" height="900" alt="Github" style="border:10px solid #000000; padding: 1px; margin:5px"></a>
+<br><br>
+<p>Motion graphic with shape animation.</p>
+<p> Click on the image to view .</p>
+<a href="https://youtu.be/Cg5nj5ysrHE" target="_blank"><img src="images/bgb.pdf" width="1400" height="900" alt="Github" style="border:10px solid #000000; padding: 1px; margin:5px"></a>
+<br><br>
+<p>Motion Graphic with animated text.</p>
+<p> Click on the image to view.</p>
+<a href="https://youtu.be/PTgmPPewCZk" target="_blank"><img src="images/bgb.pdf" width="1400" height="900" alt="Github" style="border:10px solid #000000; padding: 1px; margin:5px"></a>
+<br><br>
+<p>Motion Graphic using Rotobrush.</p>
+<p> Click on the image to view the website.</p>
+<a href="https://youtube.com/shorts/xcrmL9wWidM" target="_blank"><img src="images/bgb.pdf" width="1400" height="900" alt="Github" style="border:10px solid #000000; padding: 1px; margin:5px"></a>
+</div>
+<p><a href="index.html">[Back to Home Page]</a></p>
+
+</body>
