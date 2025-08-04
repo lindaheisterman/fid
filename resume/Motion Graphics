@@ -1,38 +1,97 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Motion Graphics</title>
-<link rel="stylesheet" href="stylesheet.css">
+  <meta charset="UTF-8">
+  <title>Motion Graphics</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
 
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 30px;
+    }
+
+    .project {
+      margin-bottom: 60px;
+    }
+
+    .project h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 450px;
+      border: 8px solid #000;
+      display: block;
+      margin-top: 15px;
+    }
+
+    a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .back-link {
+      margin-top: 50px;
+      font-size: 1.1em;
+    }
+
+    @media (max-width: 600px) {
+      iframe {
+        height: 240px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<h1>Motion Graphics</h1>
+  <h1>Motion Graphics</h1>
 
+  <div class="project">
+    <h2>Horse Blessing Ceremony</h2>
+    <p>This social media clip was designed for a Navajo Shaman Horse Blessing Ceremony.</p>
+    <iframe src="https://www.youtube.com/embed/LrK8xZlpzxo" title="Horse Blessing Ceremony Video" allowfullscreen></iframe>
+  </div>
 
+  <div class="project">
+    <h2>The Frequency of Being</h2>
+    <p>This motion graphic was designed for an immersive art project called <em>The Frequency of Being</em>.</p>
+    <iframe src="https://www.youtube.com/embed/tQviHqo9MHg" title="The Frequency of Being Video" allowfullscreen></iframe>
+  </div>
 
-</div><p>This social media clip was designed for a Navajo Shaman Horse Blessing Ceremony.</p>
-<p> Click on the image to view.</p>
-<a href="https://youtu.be/LrK8xZlpzxo" target="_blank"><img src="images/ssweb.png" width="1400" height="900" alt="Github" style="border:10px solid #000000; padding: 1px; margin:5px"></a>
-<br><br>
-<p>This motion graphic was designed for an immersive art project called The Frequency of Being.</p>
-<p> Click on the image to view.</p>
-<a href="https://youtu.be/tQviHqo9MHg" target="_blank"><img src="images/bgb.pdf" width="1400" height="900" alt="Github" style="border:10px solid #000000; padding: 1px; margin:5px"></a>
-<br><br>
-<p>Motion graphic with shape animation.</p>
-<p> Click on the image to view .</p>
-<a href="https://youtu.be/Cg5nj5ysrHE" target="_blank"><img src="images/bgb.pdf" width="1400" height="900" alt="Github" style="border:10px solid #000000; padding: 1px; margin:5px"></a>
-<br><br>
-<p>Motion Graphic with animated text.</p>
-<p> Click on the image to view.</p>
-<a href="https://youtu.be/PTgmPPewCZk" target="_blank"><img src="images/bgb.pdf" width="1400" height="900" alt="Github" style="border:10px solid #000000; padding: 1px; margin:5px"></a>
-<br><br>
-<p>Motion Graphic using Rotobrush.</p>
-<p> Click on the image to view the website.</p>
-<a href="https://youtube.com/shorts/xcrmL9wWidM" target="_blank"><img src="images/bgb.pdf" width="1400" height="900" alt="Github" style="border:10px solid #000000; padding: 1px; margin:5px"></a>
-</div>
-<p><a href="index.html">[Back to Home Page]</a></p>
+  <div class="project">
+    <h2>Shape Animation</h2>
+    <p>Motion graphic with shape animation using After Effects.</p>
+    <iframe src="https://www.youtube.com/embed/Cg5nj5ysrHE" title="Shape Animation Video" allowfullscreen></iframe>
+  </div>
+
+  <div class="project">
+    <h2>Animated Text</h2>
+    <p>Motion graphic showcasing animated typography.</p>
+    <iframe src="https://www.youtube.com/embed/PTgmPPewCZk" title="Animated Text Video" allowfullscreen></iframe>
+  </div>
+
+  <div class="project">
+    <h2>Rotobrush Technique</h2>
+    <p>This motion graphic demonstrates the use of Adobe After Effects’ Rotobrush tool.</p>
+    <iframe src="https://www.youtube.com/embed/xcrmL9wWidM" title="Rotobrush Technique Video" allowfullscreen></iframe>
+  </div>
+
+  <p class="back-link"><a href="index.html">&larr; Back to Home Page</a></p>
 
 </body>
+</html>
