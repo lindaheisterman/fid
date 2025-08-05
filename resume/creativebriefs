@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Creative Briefs</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<h1>Creative Briefs</h1>
+
+<h2>Creative Briefs</h2>
+<p>A collection of detailed Creative Briefs developed to guide design projects from concept to completion. Each brief outlines objectives, audience insights, brand requirements, and creative direction, ensuring a clear roadmap for impactful and visually cohesive results. These briefs demonstrate strategic thinking, effective communication, and the ability to translate client goals into actionable design plans.</p>
+<div class="centered-image">
+<p><img src="images/SCCImpact2025_Final.pdf" alt="Textile Design" width="800" height="1100"></p><br>
+  <p><img src="images/SCCImpact2025_Final2.pdf" alt="Textile Design" width="800" height="1100"></p><br>
+  <p><img src="images/SCCImpact2025_Final3.pdf" alt="Textile Design" width="800" height="1100"></p><br>
+  <p><img src="images/SCCImpact2025_Final4.pdf" alt="Textile Design" width="800" height="1100"></p><br>
+
+</div>
+
+<p><a href="index.html">[Back to Home Page]</a></p>
+</body>
