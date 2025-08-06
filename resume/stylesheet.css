@@ -171,21 +171,16 @@ body {
 }
 
 .image-item {
-  padding: 10px;
+  padding: 20px;
 }
+
 
 .image-item img {
   max-width: 200px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border: 2px solid rgba(0, 0, 0, 0.1); /* light gray border */
+  border-radius: 8px; /* optional: rounded corners */
 }
-.image-item img {
-  max-width: 200px;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); /* soft outer shadow */
-  border-radius: 8px; /* optional */
-}
+
 
