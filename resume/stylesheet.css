@@ -183,4 +183,17 @@ body {
   border-radius: 8px; /* optional: rounded corners */
 }
 
+body.home .image-container {
+  gap: 50px; /* more space between images on index only */
+}
+
+body.home .image-item {
+  padding: 10px; /* extra breathing room inside cells */
+}
+
+@media (max-width: 600px) {
+  body.home .image-container {
+    gap: 45px;
+  }
+}
 
