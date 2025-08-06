@@ -94,10 +94,10 @@ body {
     .image-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /*responsive */
-        gap: 15px; 
+        gap: 20px; 
         justify-items: center; 
         align-items: start; 
-        margin: 20px 0; 
+        margin: 25px 0; 
     }
     
     .image-item {
@@ -120,7 +120,7 @@ body {
 
 @media (max-width: 600px) {
     .image-container {
-        gap: 25px; /* increase spacing between images */
+        gap: 35px; /* increase spacing between images */
     }
 }
 
