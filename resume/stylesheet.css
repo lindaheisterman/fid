@@ -196,9 +196,14 @@ body.home .image-item {
     gap: 45px;
   }
 }
+
 /* INDEX PAGE ONLY — more spacing + thicker border + hover effect */
 body.home .image-container {
-  gap: 55px; /* more space between images */
+  gap: 70px; /* larger spacing between images */
+}
+
+body.home .image-item {
+  padding: 12px; /* space inside each grid cell */
 }
 
 body.home .image-item img {
@@ -209,11 +214,18 @@ body.home .image-item img {
   border-radius: 8px; /* rounded corners */
   padding: 4px; /* space between image and border */
   background-color: #fff; /* clean frame look */
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 body.home .image-item img:hover {
   border-color: #23A9A8; /* your brand teal */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* soft hover shadow */
+  box-shadow: 0 4px 12px rgba(35, 169, 168, 0.3); /* soft teal shadow */
+  transform: scale(1.03); /* slight zoom on hover */
+}
+
+@media (max-width: 600px) {
+  body.home .image-container {
+    gap: 50px; /* slightly smaller gap for mobile */
+  }
 }
 
