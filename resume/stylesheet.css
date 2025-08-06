@@ -196,4 +196,24 @@ body.home .image-item {
     gap: 45px;
   }
 }
+/* INDEX PAGE ONLY — more spacing + thicker border + hover effect */
+body.home .image-container {
+  gap: 55px; /* more space between images */
+}
+
+body.home .image-item img {
+  max-width: 200px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 3px solid rgba(0, 0, 0, 0.2); /* thicker soft border */
+  border-radius: 8px; /* rounded corners */
+  padding: 4px; /* space between image and border */
+  background-color: #fff; /* clean frame look */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+body.home .image-item img:hover {
+  border-color: #23A9A8; /* your brand teal */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* soft hover shadow */
+}
 
