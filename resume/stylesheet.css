@@ -164,4 +164,21 @@ body {
         margin: 0 auto;
     } 
 
-    
+    body {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.image-item {
+  padding: 10px;
+}
+
+.image-item img {
+  max-width: 200px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
