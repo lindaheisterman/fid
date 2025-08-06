@@ -110,8 +110,8 @@ body {
         max-width: 200px; /* limit on large screens*/ 
        aspect-ratio: 1/1; /*keeps square*/
        object-fit: cover;
-       border: 4px solid black;
-      margin: 10px;
+       border: none;
+      margin: 20px;
     }
 
 .image-item a{
