@@ -117,6 +117,13 @@ body {
   color: inherit;
   display: block;
 }
+
+@media (max-width: 600px) {
+    .image-container {
+        gap: 25px; /* increase spacing between images */
+    }
+}
+
     
     footer {
           border-top: 20px solid #23A9A8;
